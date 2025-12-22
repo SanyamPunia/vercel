@@ -1,5 +1,15 @@
 # vercel
 
+## 50.1.4
+
+### Patch Changes
+
+- Use more accurate config file name in errors ([#14482](https://github.com/vercel/vercel/pull/14482))
+
+- Updated dependencies [[`ccfb9debe22cc8a75685df7d6e99ba180b2438f3`](https://github.com/vercel/vercel/commit/ccfb9debe22cc8a75685df7d6e99ba180b2438f3), [`d4490e7ffbf47a6efb87fe3b66b6368fb0ac9d3b`](https://github.com/vercel/vercel/commit/d4490e7ffbf47a6efb87fe3b66b6368fb0ac9d3b)]:
+  - @vercel/next@4.15.10
+  - @vercel/go@3.3.0
+
 ## 50.1.3
 
 ### Patch Changes
