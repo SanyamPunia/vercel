@@ -372,13 +372,13 @@ export default class Now {
   }
 
   // public fetch with built-in retrying that can be
-  // used from external utilities. it optioanlly
+  // used from external utilities. it optionally
   // receives a `retry` object in the opts that is
   // passed to the retry utility
   // it accepts a `json` option, which defaults to `true`
   // which automatically returns the json response body
   // if the response is ok and content-type json
-  // it does the same for JSON` body` in opts
+  // it does the same for JSON `body` in opts
   async fetch(url: string, opts: FetchOptions = {}) {
     return this.retry(async bail => {
       if (opts.json !== false && opts.body && typeof opts.body === 'object') {
